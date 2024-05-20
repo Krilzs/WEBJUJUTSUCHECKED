@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <title>Producción en clase: Pixar</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img id="logo" src="images/logoindex1.png" alt="Logo Jujutsu Kaisen">
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <article class="hechicerosymaldiciones">
+            <div>
+                <h2>Hechiceros Principales</h2>
+            </div>
+        </article>
+
+        <article class="secundariogaleria">
+            
+            <a class="example-image-link" href="images/itadoriICO.jpg" data-lightbox="Jujutsu" data-title="Yuji Itadori"><img class="example-image" src="images/itadoriICO.jpg" alt="Yuji Itadori"/><p>ITADORI</p></a>
+            <a class="example-image-link" href="images/nobaraICO.webp" data-lightbox="Jujutsu" data-title="Nobara Kugisaki"><img class="example-image" src="images/nobaraICO.webp" alt="Nobara Kugisaki"/><p>NOBARA</p></a>
+            <a class="example-image-link" href="images/gojoICO.jpg" data-lightbox="Jujutsu" data-title="Satoru Gojo"><img class="example-image" src="images/gojoICO.jpg" alt="Satoru Gojo"/><p>GOJO</p></a>
+            <a class="example-image-link" href="images/megumiICO.webp" data-lightbox="Jujutsu" data-title="Megumi Fushiguro"><img class="example-image" src="images/megumiICO.webp" alt="Megumi Fushiguro"/><p>MEGUMI</p></a>         
+        
+        </article>
+        <article class="hechicerosymaldiciones">
+            <div>
+                <h2>Maldiciones Principales</h2>
+            </div>
+        </article>
+
+        <article class="secundariogaleria">
+            
+            <a class="example-image-link" href="images/mahitoico.jpg" data-lightbox="Maldiciones" data-title="Mahito"><img class="example-image" src="images/mahitoico.jpg" alt="Yuji Itadori"/><p>MAHITO</p></a>
+            <a class="example-image-link" href="images/getoico.jpg" data-lightbox="Maldiciones" data-title="Suguru Geto"><img class="example-image" src="images/getoico.jpg" alt="Nobara Kugisaki"/><p>GETO</p></a>
+            <a class="example-image-link" href="images/sukunaicoR.jpg" data-lightbox="Maldiciones" data-title="Ryomen Sukuna"><img class="example-image" src="images/sukunaicoR.jpg" alt="Satoru Gojo"/><p>SUKUNA</p></a>
+        </article>
+    </section>
+    <footer>
+        <img src="images/redes/facebook.png" alt="Facebook">
+        <img src="images/redes/twitter.png" alt="Twitter">
+        <img src="images/redes/youtube.png" alt="Youtube">
+        <img src="images/redes/instagram.png" alt="Instagram">
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

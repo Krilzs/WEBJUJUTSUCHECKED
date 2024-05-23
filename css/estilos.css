@@ -3,18 +3,18 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: 'jujutsu-kaisen';
-	font-weight: 400;
+	font-family: "Roboto", sans-serif;
 }
   
 body{
 	background-image: url(../images/wallpaperbackground.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	backdrop-filter:blur(2px);
+	backdrop-filter:blur(7px);
 	background-color:white;
 	
 }
+
 
 header img{
 	padding-right:5%;
@@ -47,7 +47,8 @@ nav ul li a{
 	text-transform: uppercase;
 }
 nav ul li a:hover{
-	text-decoration: underline;
+	font-weight: 700;
+	color: yellow;
 	
 }
 a{
@@ -71,19 +72,26 @@ section{
 	margin-top: 50px;
 	width: 100%;
 	height:600px;
-	background-image: url(../images/season1.1.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
 	display: flex;	
 	justify-content:center;
 	align-items:center;
 	color: white;
 	font-size: small;
-	border: solid 4px black;
+	border: solid 3px black;
 	background-color: white;
 }
 
+
 .Pseason1 div H2{ 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/season1.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	backdrop-filter:blur(15px);
 	font-weight: 900;
 	font-size: 100px;
 	-webkit-text-stroke: 1px yellow;
@@ -94,44 +102,73 @@ section{
 	display: inline-flex;
 }
 
-.Sseason1 div{
-	flex-direction: column;
+.Sseason1 div h3{
+	margin-top: 10px;
+	border-radius: 15px;
+	border: solid rgb(173, 173, 173) 3px;
+	background-color:ghostwhite;
 	display: flex;
-	margin-top: 20px;
-	background-color:white;
-	width: 17%;
-	height: 17%;
-	border: solid black 3px;
+	font-weight: bold;
+	width: 130px;
+	height: 50px;
 	justify-content: center;
-	align-items: center
-
+	align-items: center;
 }
+
 .Sseason1 img {
 	width: 100%;
 	height: 100%;
 }
 .Sseason1 div#resumen{
-
+	
+	border-radius: 15px;
+	margin-top: 10px;
 	display: flex;
 	background-size: cover;
 	padding: 10px;
 	margin-left: 10px;
 	width: 105%;
 	height: 110%;
+	background-color:ghostwhite;
+	justify-content: center;
+	align-items: center;
+	border: solid rgb(173, 173, 173) 3px;
+}
+
+.video {
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.video div{
+	width: 100%;
+	height: 720px;
+	display: flex;
+	justify-content: space-between;
+	
+	
+	
+}
+iframe{
+	border-radius: 15px;
+}
+.video div h3{
+	margin-right: 10px;
+	border-radius: 15px;
+	border: solid rgb(173, 173, 173) 3px;
+	background-color:ghostwhite;
+	font-weight: bold;
+	display: flex;
+	width: 150px;
+	height: 50px;
 	justify-content: center;
 	align-items: center;
 	
-	border: solid black 2px;
 }
-.video{
-	margin-top: 20px;
-	width: 100%;
-	display:inline-flex;
-	flex-direction: row-reverse;
-	align-items: start;
-
-}
-
 
 .Opening{
 	display: flex;
@@ -139,7 +176,7 @@ section{
 	background-color: white;
 	width: 17%;
 	height: 17%;
-	border: solid black 3px;
+	border: solid rgb(173, 173, 173) 3px;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -153,6 +190,7 @@ section{
 
 
 .principal{
+	border-radius: 15px;
 	margin-top: 50px;
 	width: 100%;
 	height:600px;
@@ -165,7 +203,7 @@ section{
 	align-items:end;
 	color: white;
 	font-size: small;
-	border: solid 4px black;
+	border: solid black 3px;
 	background-color: white;
 }
 
@@ -177,7 +215,8 @@ section{
 	flex-direction: column;
 }
 .principal div h2{
-	font-weight:100;
+	font-weight:100px;
+
 }
 
 .principal div img{
@@ -185,14 +224,17 @@ section{
 }
 
 .secundario{
+	
 	display: flex;
 }
 .titulo{
+	
 	display: flex;
 	justify-content: center;
 }
 .titulo div{
-	border: solid 4px black;
+	border-radius: 15px;
+	border: solid rgb(173, 173, 173) 3px;
 	background-color: white;
 	font-size: 15px;
 	margin-top: 15PX;
@@ -205,26 +247,31 @@ section{
 }
 
 .hechicerosymaldiciones{
+	border-radius: 15px;
 	display: flex;
 	justify-content:center;
 	align-items:center;
 }
 
-.hechicerosymaldiciones div{
-	border: solid 2px black;
+.hechicerosymaldiciones div {
+	border: solid rgb(173, 173, 173) 3px;
 	background-color: white;
 	font-size: 15px;
 	margin-top: 15PX;
 	display: flex;
-	font-weight: bold;
-	width: 290px;
-	height: 40px;
+	width: 370px;
+	height: 70px;
 	justify-content:center;
 	align-items:center;
 }
 
+.hechicerosymaldiciones h2{
+	font-weight: 700;
+}
+
+
 .secundariogaleria .example-image{
-	border: solid 2px black;
+	border: solid rgb(173, 173, 173) 3px;
 	margin-top: 20px;
 	width: 250px;
 	height: 250px;
@@ -232,7 +279,7 @@ section{
 
 .secundariogaleria .example-image-link p{
 	font-weight: 700;
-	border: solid 2px black;
+	border: solid rgb(173, 173, 173) 3px;
 	background-color: white;
 	width: 250px;
 	display: flex;
@@ -249,7 +296,9 @@ section{
 }
 
 .secundario div{
-	border: solid 4px black;
+	border-radius: 15px;
+	box-shadow: 0 0 12px 0 hsla(0, 0%, 0%, 0.2);
+	border: solid rgb(173, 173, 173) 3px;
 	background-color: white;
 	width: 100%;
 	padding: 6px;
@@ -275,6 +324,7 @@ section{
 
 
 .secundario div a img{
+	border-radius: 15px;
 	width: 100%;
 	margin-bottom: 2rem;
 }

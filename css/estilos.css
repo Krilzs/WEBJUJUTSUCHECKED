@@ -51,7 +51,7 @@ a{
 	text-decoration:none;
 	color: #000000;
 }
-.icon { display: none; }
+.header__icon { display: none; }
 section{
 	max-width: 1300px;
 	width: 90%;
